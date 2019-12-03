@@ -36,6 +36,8 @@ int main()
             case 3: break;
         }
 
+        cout << "Would you like to select another option?(y/n): ";
+        cin >> input;
 
     }while(input == 'y' || input == 'Y');
 
